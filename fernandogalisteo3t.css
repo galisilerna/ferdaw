@@ -5,13 +5,49 @@ body{
 	margin: auto;
 }
 
-.flex-row{
-	background-color: aqua;
-	
+
+
+.flex-row {
+	margin: 1em 0;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: blue;
 }
-.flex-column{
-	background-color:bisque;
+
+.flex-row > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
+
+
+
+/*
+https://www.w3schools.com/css/css3_flexbox_container.asp
+*/
+
+.flex-column {
+	margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
+
+.flex-column > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+
 
 .grid1{
 	background-color: chartreuse;
