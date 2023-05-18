@@ -1,0 +1,22 @@
+/* CSS Document */
+
+body{
+	max-width: 80%;
+	margin: auto;
+}
+
+.flex-row{
+	background-color: aqua;
+	
+}
+.flex-column{
+	background-color:bisque;
+}
+
+.grid1{
+	background-color: chartreuse;
+}
+
+.grid2{
+	background-color:darkgray;
+}
